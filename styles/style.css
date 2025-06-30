@@ -1,0 +1,789 @@
+/* font family */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Merriweather:wght@400;700;900&display=swap');
+
+/* banner related style */
+.banner {
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../resources/Banner\ Image.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 1300px;
+    margin: 50px auto 60px;
+    border-radius: 16px;
+
+}
+
+.banner-text {
+    padding: 100px 330px 150px;
+}
+
+.banner-sub-title {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.banner-title {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+/* main related style */
+
+/* 60% off HAPPY NEW YEAR */
+.section1-text {
+    text-align: center;
+}
+
+.section1-img {
+    text-align: center;
+}
+
+.section1-first-head {
+    color: #F00;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-top: 120px;
+}
+
+.section1-second-head {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.section1-third-head {
+    color: #070211;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+/* midnight party section styles*/
+.section2 {
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../resources/Vectorrr.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 1300px;
+    margin: 120px auto 60px;
+    border-radius: 15px;
+
+}
+
+.section2-text {
+    padding-left: 20px;
+}
+
+.text-image {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.section2-head {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    width: 600px;
+}
+
+.section2-discribtion {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 670px;
+}
+
+.section2-button {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 10px;
+    margin-left: 50px;
+    background: transparent;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.section2-button:hover {
+    background-color: bisque;
+    color: black;
+}
+
+/* Place,Date,Time  Section related styles */
+.section3 {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    width: 100%;
+    max-width: 1300px;
+    margin: 60px auto 60px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.section3-text {
+    padding-top: 100px;
+    margin-bottom: 40px;
+}
+
+.section3-head {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+.section3-head span {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.section3-button {
+    margin-bottom: 100px;
+}
+
+.section3-button>button {
+    padding: 16px 32px;
+    border: none;
+    border-radius: 8px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: cyan;
+    color: black;
+}
+
+/* bonus section */
+.bonus {
+    width: 100%;
+    max-width: 1300px;
+    margin: 60px auto 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bonus-first {
+    padding-right: 10px;
+}
+
+.bonus-last {
+    padding-left: 80px;
+}
+
+.bonus-img img {
+    border: 15px solid #F00;
+    border-radius: 463px;
+    padding: 30px;
+}
+
+.bonus-first h3 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.bonus-first h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.bonus-last h1 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.bonus-last p {
+    width: 290px;
+}
+
+.bonus p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+/* optional section */
+.optional {
+    width: 100%;
+    max-width: 1300px;
+    max-height: 980px;
+    margin: 60px auto 60px;
+    text-align: center;
+    position: relative;
+}
+
+.optional-text h3 {
+    text-align: center;
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: -30px;
+}
+
+.optional-text h1 {
+    text-align: center;
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.optional-text span {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.optional-text p {
+    text-align: center;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+.optional-img{
+    height: 662px;
+}
+.top{
+    position: relative;
+    height: 433px;
+}
+.bottom{
+    height: 229px;
+}
+
+.discount{
+    position: relative;
+    left: 200px;
+    top: 80px;
+
+}
+.lady{
+    position: absolute;
+    right: 0;
+    z-index: -1;
+
+}
+.gift{
+    position: absolute;
+    margin-top: -430px;
+    margin-left: 20px;
+
+}
+.red{
+    width: 1300px;
+}
+
+
+/* section 4 related styles */
+.section4 {
+    width: 100%;
+    max-width: 1300px;
+    margin: 60px auto 60px;
+}
+
+.section4-text {
+    padding-bottom: 20px;
+}
+
+.section4-sub-head {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.section4-head {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.section4-discribtion {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.section4-img * {
+    margin-right: 5px;
+}
+
+.section4-img-line1 {
+    margin-bottom: 6px;
+}
+
+.section4-img img:hover {
+    transform: scale(1.1);
+    z-index: 2;
+    transition: 1s;
+}
+
+/* section 5 related styles */
+.section5 {
+    background: rgba(255, 0, 0, 0.05);
+    width: 100%;
+    max-width: 1300px;
+    margin: 80px auto 60px;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.section5-img img {
+    margin-top: 80px;
+}
+
+.section5-head {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.section5-discription {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.section5-button {
+    padding-bottom: 80px;
+}
+
+.section5-button input {
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 450px;
+    height: 60px;
+    background: #FFF;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border: none;
+}
+
+.section5-button button {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    width: 200px;
+    height: 60px;
+    background: #F00;
+    border-radius: 0px 50px 50px 0px;
+    border: none;
+    margin-left: -5px;
+}
+
+.section5-button button:hover {
+    background-color: black;
+    color: white;
+}
+
+/* footer */
+.main-footer {
+    width: 100%;
+    max-width: 1630px;
+    background-color: #070211;
+    ;
+    margin: 130px auto 0;
+    border-radius: 5px;
+}
+
+.footer-container {
+    width: 100%;
+    max-width: 1300px;
+    margin: 80px auto 0;
+}
+
+.footer-text {
+    justify-content: space-between;
+    display: flex;
+    padding: 50px 0 50px;
+}
+
+.footer-container h3 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.address {
+    width: 375px;
+}
+
+hr {
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
+    border: none;
+}
+
+.social-media {
+    text-align: center;
+}
+
+.social-media img {
+    margin: 40px 10px;
+}
+
+.copy-right {
+    margin-top: 50px;
+    padding-bottom: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.optional-btn {
+    display: block;
+    margin: 40px auto 0;
+    padding: 18px 40px;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #F00; /* red */
+    color: white;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.optional-btn:hover {
+    background-color: #b30000; /* darker red */
+}
+
+/*-----------------------------responsive styles-----------------------------*/
+
+/* Mobile Responsive Styles */
+@media only screen and (max-width: 768px) {
+
+  body {
+    padding: 0 10px;
+  }
+
+  /* Banner */
+  .banner {
+    margin: 20px 0;
+    background-size: cover;
+    border-radius: 10px;
+  }
+
+  .banner-text {
+    padding: 40px 10px;
+  }
+
+  .banner-title {
+    font-size: 36px;
+  }
+
+  .banner-sub-title {
+    font-size: 20px;
+  }
+
+  /* Section 1 */
+  .section1-first-head {
+    font-size: 48px;
+    margin-top: 60px;
+  }
+
+  .section1-second-head {
+    font-size: 18px;
+  }
+
+  .section1-third-head {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .section1-img img {
+    width: 90%;
+  }
+
+  /* Section 2 */
+  .text-image {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .section2-head {
+    font-size: 28px;
+    line-height: 1.3;
+    letter-spacing: normal;
+    width: auto;
+    text-align: center;
+  }
+
+  .section2-discribtion {
+    font-size: 16px;
+    width: auto;
+    text-align: center;
+  }
+
+  .section2-button {
+    margin: 20px auto;
+  }
+
+  /* Section 3 */
+  .section3-text {
+    padding: 40px 10px 20px;
+  }
+
+  .section3-head,
+  .section3-head span {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  .section3-button > button {
+    width: 80%;
+  }
+
+  /* Bonus Section */
+  .bonus {
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+  }
+
+  .bonus-img img {
+    width: 250px;
+    height: auto;
+    padding: 10px;
+    border-width: 10px;
+  }
+
+  .bonus-last h1,
+  .bonus-first h1 {
+    font-size: 28px;
+  }
+
+  .bonus p {
+    font-size: 16px;
+    width: 100%;
+  }
+
+  /* Optional Section */
+  .optional {
+    max-height: none;
+  }
+
+  .optional-text h1,
+  .optional-text span {
+    font-size: 36px;
+  }
+
+  .optional-text h3 {
+    font-size: 18px;
+  }
+
+  .optional-text p {
+    font-size: 16px;
+    padding: 0 5px;
+  }
+
+  .lady,
+  .gift {
+    display: none;
+  }
+
+  .red {
+    width: 100%;
+  }
+
+  /* Section 4 */
+  .section4-head {
+    font-size: 28px;
+  }
+
+  .section4-sub-head {
+    font-size: 20px;
+  }
+
+  .section4-discribtion {
+    font-size: 16px;
+  }
+
+  .section4-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6px;
+  }
+
+  .section4-img img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Section 5 (Order) */
+  .section5-img img {
+    width: 80px;
+    margin-top: 40px;
+  }
+
+  .section5-head {
+    font-size: 28px;
+    padding: 0 10px;
+  }
+
+  .section5-discription {
+    font-size: 16px;
+    padding: 0 15px;
+  }
+
+  .section5-button {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .section5-button input {
+    width: 90%;
+    border-radius: 30px;
+  }
+
+  .section5-button button {
+    width: 60%;
+    border-radius: 30px;
+  }
+
+  /* Footer */
+  .footer-text {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .social-media img {
+    width: 32px;
+    height: 32px;
+  }
+
+  .copy-right {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+  }
+
+}
+@media only screen and (max-width: 600px) {
+
+  .optional {
+    margin: 30px 10px;
+    max-height: none;
+  }
+
+  .optional-text h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .optional-text h1,
+  .optional-text span {
+    font-size: 28px;
+  }
+
+  .optional-text p {
+    font-size: 14px;
+    padding: 0 10px;
+    line-height: 1.5;
+  }
+
+  .optional-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .top, .bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    position: static;
+  }
+
+  .discount,
+  .lady,
+  .gift,
+  .red {
+    position: static;
+    width: 90%;
+    max-width: 300px;
+    margin: 10px 0;
+  }
+
+  .red {
+    width: 100%;
+  }
+}
